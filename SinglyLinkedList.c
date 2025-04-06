@@ -236,6 +236,7 @@ struct node *deletionindex(struct node *head,int n){
         free(q);
         return head;
     }
+    return head;
 }
 int main(){
     int n;
