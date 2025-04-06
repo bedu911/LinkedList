@@ -137,6 +137,7 @@ struct node *insertatindex(struct node *head,int n){
         int i=0;
         while(i!=index-1){
             temp=temp->next;
+            i++;
         }
         struct node *ptr;
         ptr=(struct node *)malloc(sizeof(struct node));
